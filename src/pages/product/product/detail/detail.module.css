@@ -1,0 +1,9 @@
+.img_container {
+    margin: 28px 36px;
+}
+
+.img {
+    width: 32vw;
+    height: 64vh;
+    border-radius: 4px;
+}
