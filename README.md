@@ -14,11 +14,17 @@ Products page
 
 Filter feature
 <br />
-Filter with category            |  Add all filters together | No results found
-:-------------------------:|:-------------------------:|:-------------------------:
+Filter with category            
+<br />
 
-![](https://scontent.fosu1-1.fna.fbcdn.net/v/t1.15752-9/309087950_667728717921641_4193994321218416311_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=FOEGSQXBWGgAX_7GR7b&_nc_ht=scontent.fosu1-1.fna&oh=03_AVKugFqpdxFN3KNqx2GzbhVE2hLXpdQMSzmKSQ2LSEqA8w&oe=63695F5C) | 
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/310839700_871153403800091_4323725491449065027_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=KBxaFbkrgPYAX-EC3VW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVK3mSGRjymL2AWHxL-_488E-CyOKErNo3cQxC-h7s-4Wg&oe=636B0D16) | 
+![](https://scontent.fosu1-1.fna.fbcdn.net/v/t1.15752-9/309087950_667728717921641_4193994321218416311_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=FOEGSQXBWGgAX_7GR7b&_nc_ht=scontent.fosu1-1.fna&oh=03_AVKugFqpdxFN3KNqx2GzbhVE2hLXpdQMSzmKSQ2LSEqA8w&oe=63695F5C) 
+
+Add all filters together
+<br />
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/310839700_871153403800091_4323725491449065027_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=KBxaFbkrgPYAX-EC3VW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVK3mSGRjymL2AWHxL-_488E-CyOKErNo3cQxC-h7s-4Wg&oe=636B0D16) 
+
+No results found
+<br />
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/309111795_5235014373292274_7238121186130258093_n.png?stp=dst-png_p403x403&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=aBiQAZZJ0HQAX9hw10d&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLFe__HnvdVdlJ3IZOB_kiXBn3Q-y63nnJHwuH_p8ePxQ&oe=6368C4A1)
 
 Product (id)
