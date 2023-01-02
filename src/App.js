@@ -1,6 +1,6 @@
 import './App.css';
 import Products from './pages/products/products';
-import {Switch, Route} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
 import Cart from './pages/cart/cart';
 import Product from './pages/product/product';
 import LeftComponents from './components/navigation/leftcomponents';
@@ -38,29 +38,22 @@ function App() {
   return (
     <div>
       <LeftComponents />
-      <Switch>
-      <Route exact path='/'>
-        <Home />
+      <Routes>
+      <Route exact path='/' element = {<Home />}>
       </Route>
-      <Route exact path='/home'>
-        <Home />
+      <Route exact path='/home' element = {<Home />}>
       </Route>
-      <Route exact path='/about'>
-        <About />
+      <Route exact path='/about' element = {<About />}>
       </Route>
-      <Route exact path='/contact'>
-        <Contact />
+      <Route exact path='/contact' element = {<Contact />}>
       </Route>
-      <Route exact path="/cart">
-      <Cart />
+      <Route exact path="/cart" element = {<Cart />}>
       </Route>
-      <Route exact path="/product/:id">
-        <Product />
+      <Route exact path="/product/:id" element = {<Product/>}>
       </Route>
-      <Route exact path='/products'>
-        <Products />
+      <Route exact path='/products' element = {<Products />}>
       </Route>
-      </Switch>
+      </Routes>
     </div>
       
   )
