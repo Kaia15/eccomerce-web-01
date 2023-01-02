@@ -6,10 +6,6 @@ import Filter from './filter'
 import List from './list/list'
 import Search from '../../components/search/search'
 import ProductsStyle from './products.module.css'
-import { Link } from 'react-router-dom'
-import AboutStyle from '../homepage/about/about.module.css'
-import { ContactSupportOutlined } from '@mui/icons-material'
-import ClearFilters from './filter/ClearFilter/clearfilter'
 import { Typography, Divider } from '@mui/material'
 
 const Products = () => {
