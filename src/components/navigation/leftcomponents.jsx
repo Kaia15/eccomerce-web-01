@@ -1,24 +1,36 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 // import { StoreProvider, StoreContext } from '../../context/context'
-import ButtonStyle from './button.module.css'
-import { Typography } from '@mui/material';
+import { Tabs, Tab } from '@mui/material';
 
 const LeftComponents = () => {
     const components = ["HOME", "ABOUT", "PRODUCTS", "CONTACT", "CART"]
+    const [val, setVal] = useState("HOME");
+    const navigate = useNavigate();
     // const CART = "CART" + "(" + (cart.length).toString() + ")"
-    
+    const handleChange = (e,newValue) => {
+        setVal(newValue)
+    }
+    const handleClick = (val) => {
+        navigate(`${val}`);
+    }
+    console.log(val)
     return (
-        <div style = {{display: "flex", flexDirection: "row", height: '50px', margin: '16px 5vw'}}>
-            {components.map((compo, index) => {
+        <div style = {{display: "flex", flexDirection: "row", height: '50px', margin: '16px 0px', padding: '0px 32vw'}}>
+            <Tabs
+                value = {val}
+                onChange = {handleChange}
+                textColor="primary"
+                indicatorColor="primary"
+                aria-label="primary tabs example"
+            >
+                {components.map((compo, index) => {
                 let lower = "/" + compo.toLowerCase()
                 return (
-                <Link to = {lower} style={{textDecoration: 'none', color: 'black'}}>
-                    <Typography variant='h7' style = {{margin: '12px'}}> {compo} </Typography>
-                </Link>
+                    <Tab value={compo} label={compo} onClick = {() => handleClick(lower)}/>
                 )
-            })}
-            
+                })}
+            </Tabs>
         </div>
     )
 }

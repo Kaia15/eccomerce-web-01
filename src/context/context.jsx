@@ -1,6 +1,4 @@
 import {createContext, useState} from 'react'
-import Cart from '../pages/cart/cart'
-import Product from '../pages/product/product'
 
 const StoreContext = createContext({})
 const StoreProvider = ({children}) => {
